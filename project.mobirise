@@ -1,53 +1,46 @@
 {
   "settings": {
-    "name": "Site-08-14_2311",
+    "name": "Site-08-14_2346",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise-amp",
-      "title": "Mobirise AMP",
+      "name": "mobirise4",
+      "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#4ea2e3",
-        "secondaryColor": "#4addff",
-        "successColor": "#0dcd7b",
-        "infoColor": "#8282e7",
-        "warningColor": "#767676",
-        "dangerColor": "#a0a0a0",
-        "mainFont": "Roboto",
-        "display1Font": "Roboto",
-        "display1Size": 4.5,
-        "display2Font": "Roboto",
-        "display2Size": 2.2,
-        "display5Font": "Roboto",
-        "display5Size": 1.8,
-        "display7Font": "Roboto",
-        "display7Size": 1.1,
-        "display4Font": "Roboto",
-        "display4Size": 0.9,
-        "isRoundedButtons": false
-      }
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on",
-    "siteUrl": "",
-    "sitemapSwitcherAuto": "on",
-    "favicon": "@PROJECT_PATH@/assets/images/android-o-icon-template-h1-128x96.png",
-    "noImageResize": "",
-    "google-analytics": "",
-    "html_before": "",
-    "headbody": "",
-    "botbody": "",
     "versionFirst": "4.7.6",
-    "uniqCompNum": 4,
+    "uniqCompNum": 10,
     "versionPublish": "4.7.6"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Free PUBG Mobile MOD APK APK Download For Android",
-        "meta_descr": "Free PUBG Mobile MOD APK APK Download For Android",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -59,30 +52,21 @@
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-btn": {
-              "margin-bottom": "20px"
-            },
-            "amp-img": {
-              "width": "100%",
-              "text-align": "center",
-              "margin": "0 auto",
-              "max-width": "~'@{imageWidth}%'"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"100\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">PUBG Mobile MOD APK</h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-5\"><b><i>Free PUBG Mobile MOD APK APK Download For Android</i></b></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquid?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">START BUILDING</a>\n                    <a class=\"btn btn-md btn-warning\" href=\"https://mobirise.com\">LEARN MORE</a>\n\n                </div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/953492-770x395.jpg\" alt=\"Free PUBG Mobile MOD APK APK Download For Android\" width=\"729.0632911392405\" height=\"374\" layout=\"responsive\">\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/953492-770x395.jpg\" alt=\"Free PUBG Mobile MOD APK APK Download For Android\" title=\"Free PUBG Mobile MOD APK APK Download For Android\">\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "r0Jb3c8oqI",
-          "_anchor": "header2-0",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1613x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    teenpornyou</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Красивые мобильные сайты\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Щелкните любой текст для редактирования содержания или стиля. Выберите текст для вставки ссылки. Нажмите значок шестеренки в правом верхнем углу, чтобы скрыть/показать кнопки, текст, название и изменить фон блока. Нажмите красную кнопку \"+\" в правом нижнем углу, чтобы добавить новый блок. Используйте меню вверху слева для создания новых страниц, сайтов и добавления тем.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "r0JkfFlfIl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header2-2"
         },
         {
           "_styles": {
@@ -90,64 +74,160 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".counter-container": {
+              "color": "#767676",
               "ol": {
                 "margin-bottom": "0",
                 "li": {
-                  "margin-bottom": "2rem"
+                  "margin-bottom": "1rem"
                 },
                 "& when (@stylizedCounters)": {
                   "counter-reset": "myCounter",
                   "li": {
-                    "z-index": "3",
                     "list-style": "none",
                     "padding-left": ".5rem",
                     "&:before": {
-                      "z-index": "2",
                       "position": "absolute",
                       "left": "0px",
+                      "margin-top": "-10px",
                       "counter-increment": "myCounter",
                       "content": "counter(myCounter)",
+                      "display": "inline-block",
                       "text-align": "center",
-                      "margin": "0 10px",
-                      "line-height": "30px",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
                       "transition": "all .2s",
-                      "width": "35px",
-                      "height": "35px",
-                      "color": "@counterColor",
-                      "font-size": "20px",
-                      "font-weight": "bold",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
                       "border-radius": "50%",
-                      "border": "2px solid @counterColor",
-                      "opacity": "@counterOpacity"
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
                     }
                   }
                 }
               }
             }
           },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section content9\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        \n        <input type=\"color\" title=\"Counters Color\" name=\"counterColor\" value=\"#4ea2e3\" condition=\"stylizedCounters\">\n        <input type=\"range\" title=\"Counters Opacity\" inline name=\"counterOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"stylizedCounters\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-text counter-container mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n            <ol>\n                <li><b>If dont work please tell us</b></li>\n                <li><b>Free 100%</b></li>\n                <li><b>Best mod hack akp there</b>&nbsp;</li>\n            </ol>\n        </div>\n    </div>\n</section>",
-          "_cid": "r0Jb942ECg",
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Стилизованные маркеры\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Квадратные маркеры\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет маркера\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Free</b></li>\n                    <li><b>FHD</b></li><li><b><br></b><span style=\"font-size: 1rem;\"><b>Fast download</b></span></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r0JkqIESSU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content9-1"
+          "_anchor": "content11-4"
+        },
+        {
+          "_params": {},
+          "alias": "deltapiblockeditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "deltapiblockeditor",
+          "_anchor": "deltapiblockeditor-5"
+        },
+        {
+          "_params": {
+            "anchor": "",
+            "codeEdit": true,
+            "tinyEdit": false
+          },
+          "_customHTML": "<hr><div class='mbri-responsive mbr-iconfont' style='font-size: 44px;'>&nbsp;</div><p>Enter text here !</p><figure class='mbr-figure container'><div class='image-block' style='width: 25%; margin: auto;'><img src='../themes/mobirise4/components/_images/jumbotron.jpg' alt='DeltaPi' /></div></figure>Other text...<hr>",
+          "_customCSS": ".tinymce{background-color:white;text-align:center;}",
+          "alias": "deltapicodeedit",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "deltapicodeedit",
+          "_anchor": "deltapicodeedit-6"
         },
         {
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            ".panel-body": {
+              "padding": "15px"
+            },
+            "modal": {
+              "display": "mone",
+              "position": "fixed",
+              "zIndex": "1",
+              "paddingTop": "100px",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "auto",
+              "backgroundColor": "rgba(0,0,0,0.4)"
+            },
+            "modal_content": {
+              "backgroundColor": "#fefefe",
+              "margin": "auto",
+              "padding": "20px",
+              "border": "1px solid #888",
+              "width": "60%"
+            },
+            "close": {
+              "color": "#aaaaaa",
+              "float": "right",
+              "fontSize": "28px",
+              "fontWeight": "bold"
+            },
+            "close_hover": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            },
+            "close_focus": {
+              "color": "#000",
+              "textDecoration": "none",
+              "cursor": "pointer"
+            }
           },
-          "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://yip.su/1RXQ27.apk\" target=\"_blank\">PUBG Mobile MOD APK &nbsp;Download For Android</a></div>\n    </div>\n</section>",
-          "_cid": "r0Jbfembzb",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content5-3"
+          "_params": {
+            "showModal": false,
+            "myModalId": "myModal",
+            "blockTitle": "<h1>Modal Block Title</h1>",
+            "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+            "bgColor": "#fefefe"
+          },
+          "blockTitle": "<h1>Modal Block Title</h1>",
+          "text": "<h2>use : javascript:showModal('myModal');<br>as button URL to activate this modal window</h2>",
+          "alias": "modalblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "modal-block",
+          "_anchor": "modal-block-7"
+        },
+        {
+          "_styles": {
+            "pre": {
+              "white-space": "pre-line",
+              "padding": "10px",
+              "margin": "10px",
+              "border": "1px solid #ffffff",
+              "overflow": "auto"
+            }
+          },
+          "_params": {
+            "anchor": "",
+            "formEdit": true,
+            "formBuilder": true,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff"
+          },
+          "_customHTML": "<hr><div class='mbri-responsive mbr-iconfont' style='font-size: 44px;'></div><hr>",
+          "_customCSS": ".dpform{text-align:left;}",
+          "_logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsSAAALEgHS3X78AAAEkklEQVR42u2du2sVQRSHz/+koCCiYGVlIZa2SkQRU6QRTCVaWGgRTKfgAwVBYqUGFIxdBNE0ohDwgWJhioghxMfIuSF43cxzdx5ndn8HDre4u3Nn59tv57G7XFJKUTN3HFMKmT51bQ8QwsAAhjAogCEMCoAIS8AAECSAAAgSQABETh49r9S7T5ufACIgF16PxvCjTwARYMd41G4J9cWOrajdEuqTHX2whPpkRx8sob7ZUbsl1QJ5+tIOhL8HkEx5ZFqpX7/tQPh73q5N+XsnVgEkJOdfKK/g7WCIADtiWAIgke1oa8n+iRUASWFHrZZQn+2osS+pBsjhc+F2jFvC+wNIxJx7rjoF7w8gkfLQ2fZ2jFvC5QCIADtqsoSGYEdNltBQ7KjFEhqKHbVYQkOyowZLxAI5OKXUxs80QLhcLh9AAvLOE5U0uHwACbBjfSMtEC5foiU0RDskW0JDtEOyJTRUO6RaQkO1Q6olooDcnFdFgn8XQBp5YFKptfUyQNbW/4x+H0DG8vpDVTT49wFEgB3/LFEiLCHYIcsSgh2yLKEa7Fh8g3cMRdjx7BVe+syasw/0IFZW8RZu9tx3WqnVH9thvP+K16LF2PH2I95TJyl2DPkyVRxI047vawBRDIjODtv2Z2Y2L2UM7cs3/Tb8nS5c/ZFpv63genJ9ew2kacf9Bf12PORtBsPRbWsKWz0u3PKbLHJ9ewtkz8nNvsJ1Bo9v47qscRm6cF0G2Taf4LpwvXsJ5PI9e4PdeGxumEeLYXaYzHPtpwuud++ANO1oAuEGt4WuTNs+trpwnxQSOS2hEnaEhml+YuqUXfOZNpHLEiphR2iEdsq2urhMLG0JSbfDNNQ1dcquCaZrqFvaEqrRDttl5+qcfU7TJXJYkhzIpbvx7bB1yra6mIbIIcHHUy2Q3Sf8x/sx7Fhajt+Z604SPq4qgVy8Hd+OtkPdtp25Lvi4qgOSyg5Tp5yyM89pCUm0wzSPsA11bZ15rMtVDkuoJjtsZdrqw31L7EhlCUmzw7RmZTvLU8zMS1kSHciuifZ2mDpy15DVdT8lVXB9+XhFA5m+Fv9S5TrLU889bMHHKxbIzuNKfWjZALz03mZ1NsfcwxZ8vHzcIoG0tcP1QFxbO3yXWLoMQGJbQqXtcHXIrnsXbYA0reoKJKYlVNIOn+ewXIt9ofvr9pHUl1ApO3xguOywDZF1ja2D0dWO2JZQCTt8H6J2hekplOZ9em50HTy+7y5txEUx7Fj+HGfiF3rmdq177OB26GpJZyBTs/4Vdg1RfZ4+iQUk1fyE26MYED4b+L+ffCLkcdEYE8lcS/HN4PboYgnlssO33wi53eta4c0NI4YllMMODl467zqqCln7KgWjqyWUww4O13uCoTB8n1DMtaYVyxLKYYet8bgD73o3zwa7LehSlrQCMjmjEB4xOZMJSIo7cH0M32F+JyCnrqChQ4LbKykQ2JHWEoIdsiwh2CHLEoIdsizxBsJ/Z8rLGsh26ft3sL34P3W8p44EEABBlgGiAAVAkMY7pTQCAigyYPwHBFDKw9gGBGDKwuD8C4t+OKQIXbeMAAAAAElFTkSuQmCC",
+          "alias": "deltapiformeditor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "deltapiformeditor",
+          "_anchor": "deltapiformeditor-8"
         },
         {
           "_styles": {
@@ -158,20 +238,16 @@
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
-            },
-            "p": {
-              "margin": "0",
-              "color": "#ffffff"
             }
           },
-          "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2018 MODAPK - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
-          "_cid": "r0JbbSkrTJ",
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2018 porn - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r0JkGZuPKl",
           "_protectedParams": [],
           "_global": true,
-          "_once": "footer",
+          "_once": true,
           "_params": {},
-          "_anchor": "footer1-2"
+          "_anchor": "footer6-9"
         }
       ]
     }
