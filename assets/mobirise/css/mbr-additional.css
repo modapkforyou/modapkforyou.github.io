@@ -1375,42 +1375,37 @@ body {
 .cid-r0JkfFlfIl {
   background-image: url("../../../assets/images/mbr-1613x1080.jpg");
 }
-.cid-r0Jvp88R4E {
+.cid-r0Jx16Pxgi {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #f9f9f9;
 }
-.cid-r0Jvp88R4E .card-box {
+.cid-r0Jx16Pxgi .card-box {
   background-color: #ffffff;
   padding: 2rem;
 }
-.cid-r0Jvp88R4E h4 {
+.cid-r0Jx16Pxgi h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
 }
-.cid-r0Jvp88R4E p {
+.cid-r0Jx16Pxgi p {
   color: #767676;
   text-align: left;
 }
-.cid-r0Jvp88R4E .card-wrapper {
+.cid-r0Jx16Pxgi .card-wrapper {
   position: relative;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
-.cid-r0Jvp88R4E .card-wrapper:hover {
+.cid-r0Jx16Pxgi .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
-.cid-r0Jvp88R4E .card-img {
+.cid-r0Jx16Pxgi .card-img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
-}
-.cid-r0JkGZuPKl {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
 }
